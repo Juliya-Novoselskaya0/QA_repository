@@ -1,3 +1,4 @@
+by NJV
 1) Посмотреть где я (See where I am) - pwd
 2) Создать папку (Create folder)- mkdir testfolder 
 3) Зайти в папку (Enter to any folder) - cd testfolder
