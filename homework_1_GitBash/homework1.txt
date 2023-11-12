@@ -1,0 +1,21 @@
+1) Посмотреть где я (See where I am) - pwd
+2) Создать папку (Create folder)- mkdir testfolder 
+3) Зайти в папку (Enter to any folder) - cd testfolder
+4) Создать 3 папки (Create 3 folders) - mkdir fol1 fol2 fol3 
+5) Зайти в любоую папку (Enter to any folder) - cd fol1
+6) Создать 5 файлов (3 txt, 2 json) (Create 5 files (3 txt, 2 json) - touch testfile1.txt testfil2.txt testfile3.txt testfile4.json testfile5.json
+7) Создать 3 папки (Create 3 folders) - mkdir f1 f2 f3  
+8. Вывести список содержимого папки (Output a list of folder contents) - ls -la
+9) + Открыть любой txt файл (Open any txt file) - vim testfile1.txt 
+10) + написать туда что-нибудь, любой текст (Write something there any text) - press "I" on the keyboard to edit file, write something
+11) + сохранить и выйти.(Save and close) - press "Esc" on the keyboard to exit editing mode, :wq (save and close) 
+12) Выйти из папки на уровень выше (Exit from current folder to a higher level) - cd .. 
+-----
+13) переместить любые 2 файла, которые вы создали, в любую другую папку. (Move any 2 files which u have creted to any other folder) - mv - t ../fol2/ testfile1.txt testfile2.txt 
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку. (Copy any 2 files which u have created to any other folder) - cp 
+15) Найти файл по имени (find file by name) - find . -type f -name "*test*" (will find the file in the root directory where the name contains "text") 
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. !!!!!!!!!!!!!!!!!!!!!!!!!!
+17) вывести несколько первых строк из текстового файла (Display the first few lines of a text file) - head -3 testfile1.txt (will display the first 3 lines) 
+18) вывести несколько последних строк из текстового файла (Display the last few lines of a text file) - tail -3 testfile1.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает. (View the contents of a long file (less)) - less testfile1.txt 
+20) вывести дату и время (Display date and time) - date 
